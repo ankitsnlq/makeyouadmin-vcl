@@ -1,6 +1,6 @@
 makeyouadmin-vcl
 ================
-It is copy of TheNextWeb Varnish VCL with some customization which i am using for My site makeyouadmin.com Following is features of my Varnish VCL.
+It is copy of TheNextWeb Varnish VCL with some customization which i am using for My site [MakeYouAdmin](www.makeyouadmin.com) Following is features of my Varnish VCL.
 
 1. Don't Cache Wp-admin.
 
