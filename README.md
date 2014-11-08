@@ -15,6 +15,7 @@ It is copy of TheNextWeb Varnish VCL with some customization which i am using fo
 5.Don't Cache Wordpress Post Preview page, to keep that feature working.
 
 
-6.Don't Cache Sitemap Page of your site , else when you Purge your cache search engine bots again read your site whole sitemap.(This i come to Know From Google Webmaster Tools, when i use to cache Makeyouadmin Sitemap, Every time I purge Varnish Cache Google Webmaster Tools shows URLs submitted and URLs indexed 0 in Sitemap section and after some time bot visit my site again every thing becomes normal.).
+6.Don't Cache Sitemap Page of your site , else when you Purge your cache search engine bots again read your site whole sitemap.(This i come to Know From Google Webmaster Tools, when i use to cache Makeyouadmin Sitemap page, Every time I purge Varnish Cache Google Webmaster Tools shows URLs submitted and URLs indexed 0 in Sitemap section. Once Google bots visit my site again every thing become normal.).
 
-7.Don't Cache search Results , so that User see fresh Content when they search Something your site.
+7.Don't Cache search Results , so that User see fresh Content when they search Something from your site.
+
