@@ -2,6 +2,9 @@ makeyouadmin-vcl
 ================
 It is copy of TheNextWeb Varnish VCL with some customization which i am using for My site [MakeYouAdmin](www.makeyouadmin.com) Following is features of my Varnish VCL.
 
+Follow tutorial on How To Setup [Varnish Cache Server](http://www.makeyouadmin.com/2014/10/install-varnish-cache-server-ubuntu.html) on Ubuntu.
+[How to Optimize Varnish Cache server for Simple Wordpress site.](http://www.makeyouadmin.com/2014/11/optimize-varnish-cache-server-wordpress-blog.html)
+
 1.Don't Cache Wp-admin.
 
 2.Forward User IP to Backend Apache server so Wordpress can get Origin IP of User not Varnish server IP address.
